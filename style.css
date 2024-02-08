@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(img/img1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+   font-size: 18px;
+   padding: 20px;
+   color:rgb(255, 255, 255);
+   display: block;
+   font-weight: 600;
+}
+menu {
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-txt{
+    text-align: center;
+}
+.header-txt h1{
+    font-size: 85px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.header-txt p{
+    color: aliceblue;
+    font-size: 14px;
+    padding: 0 120px;
+    margin-bottom: 95px;
+}
+.general{
+    padding: 50px 0;
+    text-align: center;
+
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.general-1{
+    background-image: url(img/img2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-2{
+    background-image: url(img/img3-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-3{
+    background-image: url(img/img4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-4{
+    background-image: url(img/img2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-5{
+    background-image: url(img/img3-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+.general-6{
+    background-image: url(img/img4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 170px 55px;
+}
+h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    color: black;
+}
+.txt h3 p
+{
+font-size: 18px;
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+.txt p{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+}
+.info-1{
+    padding: 250px 0;
+    background-image: url(img/img5-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.info-content{
+    text-align: center;
+}
+.info-content h2,span{
+    color: rgb(255, 255, 255);
+}
+.info-2{
+    padding: 250px 0;
+    background-image: url(img/img6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.testi{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.footer{
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+.form{
+    margin-top:35px;
+}
+.campo{
+    margin-right:10px;
+    padding: 17px 35px;
+    border: 2px solid salmon;
+    outline: none;
+    color:black;
+}
+.campo::placeholder{
+    color: blue;
+}
+.btn-2{
+    padding: 17px 35px;
+    border: 2px solid saddlebrown;
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.footer-txt{
+    margin-top: 100px;
+    border-top: 1px saddlebrown;
+    padding: 20px 0;
+}
+.footer-txt p{
+    color: black;
+    font-size: 16px;
+
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;;
+}
